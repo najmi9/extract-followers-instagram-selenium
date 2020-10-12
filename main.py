@@ -14,7 +14,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 import csv
 
-username = "netaporter"
+username = input("Enter a valid username to extract thier followers")
 
 fc_username = "*****" # username of <Facebook Account>
 fc_password = "*****" # password of <Facebook Account>
